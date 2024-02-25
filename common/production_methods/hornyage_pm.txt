@@ -1,0 +1,777 @@
+﻿#milking_factory
+pm_preg_women = {
+	texture = "gfx/interface/icons/production_method_icons/breed_education.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_breast_milk_add = 10
+		}
+
+		level_scaled = {
+			building_employment_slavemaster_add = 150
+			building_employment_trap_add = 150 
+			building_employment_milkmaid_add = 200
+			building_employment_laborers_add = 1300
+			building_employment_hucow_add = 3500
+		}
+		
+		unscaled = {
+			building_slavemaster_shares_add = 10
+		}
+	}
+}
+
+pm_encourage_drug = {
+	texture = "gfx/interface/icons/production_method_icons/pharmacies.dds"
+	unlocking_global_technologies = {
+		chemical_hormone_production
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_aphrodisiac_add = 5
+			goods_output_breast_milk_add = 20
+		}
+
+		level_scaled = {
+			building_employment_slavemaster_add = 200
+			building_employment_trap_add = 300
+			building_employment_milkmaid_add = 1000
+			building_employment_laborers_add = 1000
+			building_employment_hucow_add = 2000
+		}
+
+	}
+
+}
+
+pm_no_penismilking = {
+	texture = "gfx/interface/icons/production_method_icons/no_explosives.dds"
+	is_default = yes
+}
+
+pm_penismilking = {
+	texture = "gfx/interface/icons/production_method_icons/penismilking.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_semen_add = 10
+		}
+
+		level_scaled = {
+			building_employment_hucow_add = 1000
+		}
+	}
+}
+
+pm_aphrodisiac_penismilking = {
+	texture = "gfx/interface/icons/production_method_icons/pharmacies.dds"
+	unlocking_technologies = {
+		chemical_hormone_production
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_aphrodisiac_add = 5
+			goods_output_semen_add = 20
+		}
+
+		level_scaled = {
+			building_employment_milkmaid_add = 200
+			building_employment_hucow_add = 500
+		}
+	}
+}
+
+pm_nature_production = {
+	texture = "gfx/interface/icons/production_method_icons/no_explosives.dds"
+	is_default = yes
+}
+
+pm_additive_drug = {
+	texture = "gfx/interface/icons/production_method_icons/pharmacies.dds"
+	unlocking_technologies = {
+		chemical_hormone_production
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_aphrodisiac_add = 5
+			goods_output_vegina_juice_add = 10
+
+		}
+
+		level_scaled = {
+			building_employment_milkmaid_add = 100
+			building_employment_laborers_add = 400
+		}
+	}
+}
+
+pm_handjob = {
+	texture = "gfx/interface/icons/production_method_icons/entertainment_milking.dds"
+	is_default = yes
+}
+
+pm_breedmount = {
+	texture = "gfx/interface/icons/production_method_icons/breedmount.dds"
+	unlocking_technologies = {
+		fucking_machine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_masturbation_sex_toy_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -500
+		}
+	}
+}
+
+pm_automatic_milkingmachine = {
+	texture = "gfx/interface/icons/production_method_icons/milkingmachine.dds"
+	unlocking_technologies = {
+		fucking_machine
+		electrical_generation
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_masturbation_sex_toy_add = 30
+			goods_input_deluxe_sex_toy_add = 20
+			goods_input_electricity_add = 10
+
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+	required_input_goods = electricity
+}
+
+pm_no_entertainment_milking = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	is_default = yes
+}
+
+pm_entertainment_milking = {
+	texture = "gfx/interface/icons/production_method_icons/entertainment_milking.dds"
+	unlocking_technologies = {
+		entertainment_industry
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_breast_milk_add = -5
+			goods_output_sexualmedia_add = 5
+		}
+		level_scaled = {
+			building_employment_trap_add = 200
+		}
+	}
+}
+
+#sextoy_factory
+
+pm_handmade_sextoy = {
+	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 10
+			goods_output_masturbation_sex_toy_add = 10
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+
+pm_machine_production_sextoy = {
+	texture = "gfx/interface/icons/production_method_icons/lathes.dds"
+	unlocking_technologies = {
+		steelworking
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_steel_add = 10
+			goods_output_masturbation_sex_toy_add = 40
+		}
+		level_scaled = {
+			building_employment_machinists_add = 2000
+			building_employment_laborers_add = 2500
+		}
+	}
+}
+
+pm_rubber_onahole = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	unlocking_technologies = {
+		rubber_mastication
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 15
+			goods_input_steel_add = 10
+			goods_input_rubber_add = 20
+			goods_output_masturbation_sex_toy_add = 80
+		}
+		level_scaled = {
+			building_employment_engineers_add = 500
+			building_employment_machinists_add = 1500
+			building_employment_laborers_add = 2500
+		}
+	}
+}
+
+pm_no_chastitycage = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	is_default = yes
+}
+
+pm_chastitycage = {
+	texture = "gfx/interface/icons/production_method_icons/chastity_cage.dds"
+	unlocking_technologies = {
+		chastity_worrier
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 10
+			goods_output_chastity_cage_add = 20
+		}
+		level_scaled = {
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+
+pm_no_dxsextoy = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	is_default = yes
+}
+
+pm_less_dxsextoy = {
+	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_masturbation_sex_toy_add = -10
+			goods_output_deluxe_sex_toy_add = 10
+		}
+	}
+}
+
+pm_mass_dxsextoy = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_masturbation_sex_toy_add = -20
+			goods_output_deluxe_sex_toy_add = 20
+		}
+	}
+}
+
+pm_no_milkingmachine = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	is_default = yes
+}
+pm_milkingmachine = {
+	texture = "gfx/interface/icons/production_method_icons/milkingmachine.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 20
+			goods_output_milking_machine_add = 10
+		}
+		level_scaled = {
+			building_employment_engineers_add = 250
+			building_employment_machinists_add = 1250
+		}
+	}
+}
+
+#fluid_processing
+
+pm_tradition_orgasm = {
+	texture = "gfx/interface/icons/production_method_icons/tradition_orgasm.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_vegina_juice_add = 20
+		}
+		level_scaled = {
+			building_employment_trap_add = 500
+			building_employment_sexslave_add = 2000
+			building_employment_laborers_add = 2000
+		}
+	}
+}
+
+pm_support_orgasm = {
+	texture = "gfx/interface/icons/production_method_icons/support_orgasm.dds"
+	unlocking_technologies = {
+		fucking_machine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_masturbation_sex_toy_add = 10
+			goods_output_vegina_juice_add = 40
+		}
+		level_scaled = {
+			building_employment_trap_add = 1000
+			building_employment_sexslave_add = 2000
+		}
+	}
+}
+
+pm_no_facility_entertainment = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	is_default = yes
+}
+
+pm_facility_entertainment = {
+	texture = "gfx/interface/icons/production_method_icons/arcades.dds"
+	unlocking_technologies = {
+		entertainment_industry
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_vegina_juice_add = -10
+			country_minting_add = 1000
+		}
+	}
+}
+
+#breed_ground
+
+#porn_media_publisher
+
+pm_pornnovel = {
+	texture = "gfx/interface/icons/production_method_icons/bleached_paper.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 10
+			goods_output_sexualmedia_add = 15
+		}
+		level_scaled = {
+			building_employment_academics_add = 500
+			building_employment_trap_add = 1500
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+
+pm_pornmovie = {
+	texture = "gfx/interface/icons/production_method_icons/film_art.dds"
+	unlocking_technologies = {
+		film
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 10
+			goods_input_tools_add = 5
+			goods_input_electricity_add = 5
+		}
+		level_scaled = {
+			building_employment_slavemaster_add = 100
+			building_employment_academics_add = 500
+			building_employment_engineers_add = 400
+			building_employment_trap_add = 1500
+			building_employment_machinists_add = 1000
+			building_employment_sexslave_add = 1500
+		}
+		unscaled = {
+			building_slavemaster_shares_add = 10
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_no_advertisepage = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	is_default = yes
+}
+
+pm_advertisepage = {
+	texture = "gfx/interface/icons/production_method_icons/photographic_art.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_sexualmedia_add = -5
+			country_minting_add = 500
+		}
+	}
+}
+
+
+#brothel
+
+pm_cheap_streetwalker = {
+	texture = "gfx/interface/icons/production_method_icons/cheap_streetwalker.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_brothel_service_add = 20
+		}
+		level_scaled = {
+			building_employment_trap_add = 500
+			building_employment_whore_add = 500
+			building_employment_sexslave_add = 3000
+			building_employment_laborers_add = 1000
+		}
+	}
+}
+
+pm_experienced_streetwalker = {
+	texture = "gfx/interface/icons/production_method_icons/experienced_streetwalker.dds"
+	unlocking_technologies = {
+		escort
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_brothel_service_add = 35
+		}
+		level_scaled = {
+			building_employment_trap_add = 750
+			building_employment_whore_add = 1000
+			building_employment_sexslave_add = 2250
+			building_employment_laborers_add = 1000
+		}
+	}
+}
+
+pm_skilled_whore = {
+	texture = "gfx/interface/icons/production_method_icons/skilled_whore.dds"
+	unlocking_technologies = {
+		madam_trainingcourse
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_brothel_service_add = 50
+		}
+		level_scaled = {
+			building_employment_trap_add = 1000
+			building_employment_whore_add = 1500
+			building_employment_sexslave_add = 1500
+			building_employment_laborers_add = 1000
+		}
+	}
+}
+
+pm_no_gloryhole = {
+	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+	is_default = yes
+}
+
+pm_gloryhole = {
+	texture = "gfx/interface/icons/production_method_icons/gloryhole.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_gloryhole_service_add = 10
+		}
+		level_scaled = {
+			building_employment_sexslave_add = 1000
+		}
+	}
+}
+
+#powerplant
+
+pm_orgasm_power = {
+	texture = "gfx/interface/icons/production_method_icons/hydroelectric_plant.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 15
+			goods_output_electricity_add = 75
+		}
+		level_scaled = {
+			building_employment_trap_add = 500
+			building_employment_sexslave_add = 2000
+			building_employment_laborers_add = 2000
+		}
+	}
+}
+
+pm_semen_power = {
+	texture = "gfx/interface/icons/production_method_icons/semen_power.dds"
+	unlocking_technologies = {
+		biologically_active_enegy
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 15
+			goods_input_engines_add = 30
+			goods_input_semen_add = 40
+			goods_output_electricity_add = 150
+		}
+		level_scaled = {
+			building_employment_engineers_add = 500
+			building_employment_trap_add = 1000
+			building_employment_machinists_add = 1000
+			building_employment_laborers_add = 2000
+		}
+	}
+}
+
+pm_only_worker = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	is_default = yes
+}
+pm_professional_maintenance = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_looms.dds"
+	unlocking_technologies = {
+		steam_turbine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_paper_add = 20
+		}
+		level_scaled = {
+			building_employment_engineers_add = 250
+			building_employment_machinists_add = 250
+			building_employment_laborers_add = -2000
+		}
+	}
+}
+
+#owner type
+
+pm_private_owner = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	is_default = yes
+	building_modifiers = {
+		level_scaled = {
+			building_employment_slavemaster_add = 100
+		}
+		unscaled = {
+			building_slavemaster_shares_add = 10
+		}
+	}
+}
+
+pm_hamodgovernment = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	building_modifiers = {
+		level_scaled = {
+			building_employment_trap_add = 300
+			building_employment_bureaucrats_add = 200
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+	}
+}
+
+#學院科技生產
+
+pm_masturbation_education = {
+	texture = "gfx/interface/icons/production_method_icons/masturbation_education.dds"
+	is_default = yes
+	unlocking_technologies = {
+		masturbation_education
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 4
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 5
+			goods_input_masturbation_sex_toy_add = 5
+		}
+		level_scaled = {
+			building_employment_clerks_add = 1500
+			building_employment_sexslave_add = 1500
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.15
+		}
+	}
+}
+pm_sex_education = {
+	texture = "gfx/interface/icons/production_method_icons/sex_education.dds"
+	unlocking_technologies = {
+		sex_education
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 6
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 10
+			goods_input_masturbation_sex_toy_add = 10
+		}
+		level_scaled = {
+			building_employment_clerks_add = 1750
+			building_employment_sexslave_add = 1250
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.2
+		}
+	}
+}
+pm_breed_academy = {
+	texture = "gfx/interface/icons/production_method_icons/breed_education.dds"
+	unlocking_technologies = {
+		breed_education
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 8
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 15
+			goods_input_masturbation_sex_toy_add = 15
+		}
+		level_scaled = {
+			building_employment_clerks_add = 2000
+			building_employment_sexslave_add = 1000
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.25
+			state_birth_rate_mult = 0.2
+		}
+	}
+}
+pm_trap_academia = {
+	texture = "gfx/interface/icons/production_method_icons/professional_bureaucrats.dds"
+	unlocking_production_methods = {
+		pm_masturbation_education
+		pm_sex_education
+		pm_trap_academia
+	}	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_academics_add = 750
+			building_employment_trap_add = 1250
+		}
+	}
+}
+
+
+#製藥
+pm_labproduction_pharmaceutical = {
+	texture = "gfx/interface/icons/production_method_icons/no_distillery.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_vegina_juice_add = 10
+			goods_input_breast_milk_add = 10
+			goods_output_aphrodisiac_add = 30
+		}
+		level_scaled = {
+			building_employment_academics_add = 250
+			building_employment_trap_add = 250
+			building_employment_laborers_add = 4000
+		}
+	}
+}
+
+pm_industrialproduction_pharmaceutical = {
+	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
+	unlocking_technologies = {
+		pharmaceutical_mixingprocess
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_vegina_juice_add = 20
+			goods_input_breast_milk_add = 20
+			goods_input_glass_add = 20
+			goods_input_tools_add = 10
+			goods_output_aphrodisiac_add = 45
+		}
+		level_scaled = {
+			building_employment_academics_add = 250
+			building_employment_trap_add = 250
+			building_employment_engineers_add = 500
+			building_employment_machinists_add = 1000
+			building_employment_laborers_add = 2000
+		}
+	}
+}
+pm_automaticproduction_pharmaceutical = {
+	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_vegina_juice_add = 20
+			goods_input_breast_milk_add = 20
+			goods_input_glass_add = 30
+			goods_input_tools_add = 20
+			goods_input_electricity_add = 10
+			goods_output_aphrodisiac_add = 70
+		}
+		level_scaled = {
+			building_employment_academics_add = 500
+			building_employment_trap_add = 500
+			building_employment_engineers_add = 1000
+			building_employment_machinists_add = 1000
+		}
+	}
+	required_input_goods = electricity
+}
+
+#避孕用品
+pm_tradition_condom = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_condom_add = 10
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+pm_rubber_condom = {
+	texture = "gfx/interface/icons/production_method_icons/glassworks_handicraft.dds"
+	unlocking_technologies = {
+		rubber_mastication
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_rubber_add = 10
+			goods_input_tools_add = 10
+			goods_output_condom_add = 40
+		}
+		level_scaled = {
+			building_employment_machinists_add = 1500
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+pm_automatic_condom_production = {
+	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_rubber_add = 20
+			goods_input_tools_add = 20
+			goods_input_electricity_add = 20
+			goods_output_condom_add = 80
+		}
+		level_scaled = {
+			building_employment_engineers_add = 500
+			building_employment_machinists_add = 1500
+			building_employment_laborers_add = 1000
+		}
+	}
+	required_input_goods = electricity
+}

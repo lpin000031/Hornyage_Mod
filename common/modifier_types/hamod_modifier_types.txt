@@ -1,0 +1,313 @@
+﻿building_group_bg_bg_sex_industry_laborers_mortality_mult = {
+    good = no
+	percent = yes
+	num_decimals = 0
+}
+building_group_bg_bg_sex_industry_machinists_mortality_mult = {
+    good = no
+	percent = yes
+	num_decimals = 0
+}
+building_group_bg_bg_sex_industry_engineers_mortality_mult = {
+    good = no
+	percent = yes
+	num_decimals = 0
+}
+building_group_bg_bg_sex_industry_laborers_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+building_group_bg_bg_sex_industry_machinists_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+building_group_bg_bg_sex_industry_engineers_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+building_group_bg_bg_sex_industry_hucow_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+building_group_bg_bg_sex_industry_milkmaid_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+building_group_bg_bg_sex_industry_sexslave_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+building_group_bg_bg_sex_industry_slavemaster_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+building_group_bg_bg_sex_industry_trap_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+building_group_bg_bg_sex_industry_whore_standard_of_living_add = {
+    good = yes
+	percent = no
+}
+
+building_group_bg_bg_sex_industry_tax_mult = {
+    neutral = yes
+	percent = yes
+}
+building_group_bg_bg_sex_industry_employee_mult = {
+    good = no
+    percent = yes
+}
+goods_output_masturbation_sex_toy_add = {
+    good = yes
+	percent = no
+}
+goods_output_gloryhole_service_add = {
+    good = yes
+	percent = no
+}
+goods_output_brothel_service_add = {
+    good = yes
+	percent = no
+}
+goods_output_deluxe_sex_toy_add = {
+    good = yes
+	percent = no
+}
+goods_output_aphrodisiac_add = {
+    good = yes
+	percent = no
+}
+goods_output_condom_add = {
+    good = yes
+	percent = no
+}
+goods_output_contraceptive_pill_add = {
+    good = yes
+	percent = no
+}
+goods_output_semen_add = {
+    good = yes
+	percent = no
+}
+goods_output_breast_milk_add = {
+    good = yes
+	percent = no
+}
+goods_output_milking_machine_add = {
+    good = yes
+	percent = no
+}
+goods_output_chastity_cage_add = {
+    good = yes
+	percent = no
+}
+goods_output_vegina_juice_add = {
+    good = yes
+	percent = no
+}
+goods_output_sexualmedia_add = {
+    good = yes
+	percent = no
+}
+goods_input_masturbation_sex_toy_add = {
+    good = no
+	percent = no
+}
+goods_input_gloryhole_service_add = {
+    good = no
+	percent = no
+}
+goods_input_brothel_service_add = {
+    good = no
+	percent = no
+}
+goods_input_deluxe_sex_toy_add = {
+    good = no
+	percent = no
+}
+goods_input_aphrodisiac_add = {
+    good = no
+	percent = no
+}
+goods_input_condom_add = {
+    good = no
+	percent = no
+}
+goods_input_contraceptive_pill_add = {
+    good = no
+	percent = no
+}
+goods_input_semen_add = {
+    good = no
+	percent = no
+}
+goods_input_breast_milk_add = {
+    good = no
+	percent = no
+}
+goods_input_milking_machine_add = {
+    good = no
+	percent = no
+}
+goods_input_chastity_cage_add = {
+    good = no
+	percent = no
+}
+goods_input_vegina_juice_add = {
+    good = no
+	percent = no
+}
+goods_input_sexualmedia_add = {
+    good = no
+	percent = no
+}
+building_milking_factory_throughput_add = {
+    good = yes
+	percent = yes
+}
+building_sextoy_factory_throughput_add = {
+    good = yes
+	percent = yes
+}
+building_fluid_processing_throughput_add = {
+    good = yes
+	percent = yes
+}
+building_pornmedia_publisher_throughput_add = {
+    good = yes
+	percent = yes
+}
+building_brothel_throughput_add = {
+    good = yes
+	percent = yes
+}
+building_horny_powerplant_throughput_add = {
+    good = yes
+	percent = yes
+}
+building_breed_academy_throughput_add = {
+    good = yes
+	percent = yes
+}
+goods_output_masturbation_sex_toy_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_gloryhole_service_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_brothel_service_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_deluxe_sex_toy_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_aphrodisiac_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_condom_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_contraceptive_pill_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_semen_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_breast_milk_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_milking_machine_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_chastity_cage_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_vegina_juice_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_sexualmedia_mult = {
+	good = yes
+	percent = yes
+}
+goods_input_masturbation_sex_toy_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_gloryhole_service_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_brothel_service_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_deluxe_sex_toy_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_aphrodisiac_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_condom_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_contraceptive_pill_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_semen_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_breast_milk_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_milking_machine_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_chastity_cage_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_vegina_juice_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+goods_input_sexualmedia_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+building_slavemaster_shares_add = {
+	good = yes
+	percent = no
+}

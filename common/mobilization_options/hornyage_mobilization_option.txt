@@ -1,0 +1,65 @@
+﻿mobilization_option_miltary_brothels = {
+	texture = ""
+	unlocking_technologies = {
+		escort
+	}
+	possible = {
+		market ?= {
+			mg:brothel_service ?= {
+				market_goods_sell_orders > 0
+			}
+		}
+	}
+	on_deactivate = {
+		custom_tooltip = {
+			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+			add_organization = {
+				value = organization
+				multiply = -0.5
+			}
+		}
+	}
+	upkeep_modifier = {
+		goods_input_brothel_service_add = 1
+	}
+	unit_modifier = {
+		unit_morale_recovery_mult = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+	group = military_sexneeds
+}
+
+mobilization_option_aphrodisiac_shell = {
+	group = military_sexneeds
+	texture = ""
+	unlocking_technologies = {
+		chemical_shell
+	}
+	possible = {
+		market ?= {
+			mg:aphrodisiac ?= {
+				market_goods_sell_orders > 0
+			}
+		}
+	}
+	on_deactivate = {
+		custom_tooltip = {
+			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+			add_organization = {
+				value = organization
+				multiply = -0.5
+			}
+		}
+	}
+	upkeep_modifier = {
+		goods_input_aphrodisiac_add = 1
+	}
+	unit_modifier = {
+		unit_morale_damage_mult = 0.15
+	}
+	ai_weight = {
+		value = 1
+	}
+}

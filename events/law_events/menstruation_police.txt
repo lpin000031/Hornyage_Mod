@@ -1,0 +1,29 @@
+﻿namespace = menstruation_police
+
+menstruation_police.1 = {
+	type = country_event
+	placement = ROOT
+	title = menstruation_police.1.t
+	desc = menstruation_police.1.d
+	flavor = menstruation_police.1.f
+
+	event_image = {
+		texture = "gfx/event_pictures/menstruation_police.dds"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 1 #度過幾天後自動決定 1 = 30天
+
+	option = {
+		default_option = yes
+		name = menstruation_police.1.a
+		add_technology_researched = modern_slaves_manufacturies
+		add_technology_researched = modern_slaves_warfare
+		add_technology_researched = modern_slaves_society
+	}
+
+	option = {
+		name = menstruation_police.1.b
+	}
+}

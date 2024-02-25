@@ -1,0 +1,192 @@
+﻿building_milking_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/milking_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		modern_slaves_manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_lacation_milking
+		pmg_penis_milking
+		pmg_additive
+		pmg_automatic_milking
+		pmg_milking_entertainment
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_sextoy_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/sextoy_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		fucking_machine
+	}
+
+	production_method_groups = {
+		pmg_sex_toy
+		pmg_chastitycage
+		pmg_dxsextoy
+		pmg_milkingmachine
+		pmg_automation_building_tooling_workshops
+		pmg_owner_sextoy
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_fluid_processing = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/fluid_processing.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		chemical_hormone_production
+	}
+
+	production_method_groups = {
+		pmg_fluid_collection
+		pmg_facility_entertainment
+		pmg_facility_owner
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_pornmedia_publisher = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		pornmedia
+	}
+
+	production_method_groups = {
+		pmg_pornpublication
+		pmg_advertisepage
+		pmg_publication_owner
+	}
+	required_construction = construction_cost_high
+}
+
+building_brothel = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/brothel.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		modern_slaves_society
+	}
+
+	production_method_groups = {
+		pmg_brothel_service
+		pmg_gloryhole
+		pmg_brothel_madam
+	}
+	required_construction = construction_cost_high
+}
+
+building_horny_powerplant = {
+	building_group = bg_power
+	texture = "gfx/interface/icons/building_icons/horny_powerplant.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		electrical_generation
+		orgasm_enegy
+	}
+	production_method_groups = {
+		pmg_hornypowergene
+		pmg_powerplant_maintenance
+		pmg_powerplant_management
+	}
+	required_construction = construction_cost_very_high
+}
+
+building_breed_academy = {
+	building_group = bg_technology
+	texture = "gfx/interface/icons/building_icons/building_university.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		masturbation_education
+	}
+
+	production_method_groups = {
+		pmg_base_breed_academy
+		pmg_breed_academy_academia
+	}
+	required_construction = construction_cost_medium
+}
+
+
+building_pharmaceutical_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/pharmaceutical_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		chemical_hormone_production
+	}
+
+	production_method_groups = {
+		pmg_aphrodisiac_production
+		pmg_facility_owner
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_contraceptiongoods_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/contraceptiongoods_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		modern_slaves_manufacturies
+	}
+
+	production_method_groups = {
+		pmg_condom_production
+		pmg_contraceptiongoods_factory_owner
+	}
+}
+
+#building_breed_ground = {
+#	building_group = bg_light_industry
+#	texture = "gfx/interface/icons/building_icons"
+#	city_type = city
+#	levels_per_mesh = 5
+#	
+#
+#	unlocking_technologies = {
+#		modern_slaves_manufacturies
+#	}
+#
+#	production_method_groups = {
+#		modern_slaves_manufacturies
+#	}
+#
+#	possible = {
+#		error_check = {
+#			severity = fail
+#			forceimpregnantlaw = yes
+#		}
+#	}
+#
+#	required_construction = construction_cost_high
+#}

@@ -1,0 +1,8 @@
+﻿law_nature_breed = {
+    group = lawgroup_breedrule
+    icon = ""
+    pop_support = {
+        value = 0
+    }
+    
+}

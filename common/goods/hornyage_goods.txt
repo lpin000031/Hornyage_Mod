@@ -1,0 +1,106 @@
+﻿#staple = 基礎物品
+
+
+masturbation_sex_toy = {
+	texture = "gfx/interface/icons/goods_icons/masturbation_sex_toy.dds"
+	cost = 40
+	category = luxury
+	obsession_chance = 3.5
+	prestige_factor = 3
+	consumption_tax_cost = 100
+}
+
+gloryhole_service = {
+	texture = "gfx/interface/icons/goods_icons/gloryhole_service.dds"
+	cost = 50
+	category = luxury
+	obsession_chance = 3.5
+	prestige_factor = 3
+	consumption_tax_cost = 100
+}
+
+brothel_service = {
+	texture = "gfx/interface/icons/goods_icons/brothel_service.dds"
+	cost = 80
+	category = luxury
+	obsession_chance = 3.5
+	prestige_factor = 5
+	consumption_tax_cost = 100
+}
+
+deluxe_sex_toy = {
+	texture = "gfx/interface/icons/goods_icons/deluxe_sex_toy.dds"
+	cost = 70
+	category = luxury
+	obsession_chance = 3.5
+	prestige_factor = 5
+	consumption_tax_cost = 100
+}
+
+aphrodisiac = {
+	texture = "gfx/interface/icons/goods_icons/aphrodisiac.dds"
+	cost = 50
+	category = luxury
+	obsession_chance = 3.5
+	prestige_factor = 4
+	consumption_tax_cost = 100
+}
+
+condom = {
+	texture = "gfx/interface/icons/goods_icons/condom.dds"
+	cost = 40
+	category = luxury
+	obsession_chance = 3.5
+	prestige_factor = 3
+	consumption_tax_cost = 100
+}
+
+semen = {
+	texture = "gfx/interface/icons/goods_icons/semen.dds"
+	cost = 20
+	category = industrial
+
+	prestige_factor = 3
+
+}
+
+breast_milk = {
+	texture = "gfx/interface/icons/goods_icons/breast_milk.dds"
+	cost = 20
+	category = industrial
+
+	prestige_factor = 3
+}
+
+milking_machine = {
+	texture = "gfx/interface/icons/goods_icons/milking_machine.dds"
+	cost = 60
+	category = industrial
+
+	prestige_factor = 5
+}
+
+chastity_cage = {
+	texture = "gfx/interface/icons/goods_icons/chastity_cage.dds"
+	cost = 60
+	category = industrial
+
+	prestige_factor = 5
+}
+
+vegina_juice = {
+	texture = "gfx/interface/icons/goods_icons/vegina_juice.dds"
+	cost = 20
+	category = industrial
+
+	prestige_factor = 5
+}
+
+sexualmedia = {
+	texture = "gfx/interface/icons/goods_icons/paper.dds"
+	cost = 40
+	category = luxury
+	obsession_chance = 3.5
+	prestige_factor = 5
+}
+

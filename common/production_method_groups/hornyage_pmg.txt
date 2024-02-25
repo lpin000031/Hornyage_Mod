@@ -1,0 +1,242 @@
+﻿pmg_base_lacation_milking = {
+	texture = ""
+	production_methods = {
+		pm_preg_women
+		pm_encourage_drug
+	}
+}
+
+pmg_penis_milking = {
+	texture = ""
+	production_methods = {
+		pm_no_penismilking
+		pm_penismilking
+		pm_aphrodisiac_penismilking
+	}
+}
+
+pmg_additive = {
+	texture = ""
+	production_methods = {
+		pm_nature_production
+		pm_additive_drug
+	}
+}
+
+pmg_automatic_milking = {
+	texture = ""
+	production_methods = {
+		pm_handjob
+		pm_breedmount
+		pm_automatic_milkingmachine
+	}
+}
+
+pmg_milking_entertainment = {
+	texture = ""
+	production_methods = {
+		pm_no_entertainment_milking
+		pm_entertainment_milking
+	}
+}
+
+#sex_toy
+
+pmg_sex_toy = {
+	texture = ""
+	production_methods = {
+		pm_handmade_sextoy
+		pm_machine_production_sextoy
+		pm_rubber_onahole
+	}
+}
+
+pmg_chastitycage = {
+	texture = ""
+	production_methods = {
+		pm_no_chastitycage
+		pm_chastitycage
+	}
+}
+
+pmg_dxsextoy = {
+	texture = ""
+	production_methods = {
+		pm_no_dxsextoy
+		pm_less_dxsextoy
+		pm_mass_dxsextoy
+	}
+}
+
+pmg_milkingmachine = {
+	texture = ""
+	production_methods = {
+		pm_no_milkingmachine
+		pm_milkingmachine
+	}
+}
+
+pmg_owner_sextoy = {
+	texture = ""
+	production_methods = {
+		pm_private_owner
+	}
+}
+
+#brothel
+
+pmg_brothel_service = {
+	texture = ""
+	production_methods = {
+		pm_cheap_streetwalker
+		pm_experienced_streetwalker
+		pm_skilled_whore
+	}
+
+}
+
+pmg_gloryhole = {
+	texture = ""
+	production_methods = {
+		pm_no_gloryhole
+		pm_gloryhole
+	}
+}
+
+pmg_brothel_madam = {
+	texture = ""
+	production_methods = {
+		pm_private_owner
+		pm_hamodgovernment
+	}
+}
+
+#porn_media_publisher
+
+pmg_pornpublication = {
+	texture = ""
+	production_methods = {
+		pm_pornnovel
+		pm_pornmovie
+	}
+}
+
+pmg_advertisepage = {
+	texture = ""
+	production_methods = {
+		pm_no_advertisepage
+		pm_advertisepage
+	}
+}
+
+pmg_publication_owner = {
+	texture = ""
+	production_methods = {
+		pm_private_owner
+		pm_hamodgovernment
+	}
+}
+
+#horny_powerplant
+
+pmg_hornypowergene = {
+	texture = ""
+	production_methods = {
+		pm_orgasm_power
+		pm_semen_power
+	}
+}
+
+pmg_powerplant_maintenance = {
+	texture = ""
+	production_methods = {
+		pm_only_worker
+		pm_professional_maintenance
+	}
+}
+
+pmg_powerplant_management = {
+	texture = ""
+	production_methods = {
+		pm_private_owner
+		pm_hamodgovernment
+	}
+}
+
+#fluid_processing
+
+pmg_fluid_collection = {
+	texture = ""
+	production_methods = {
+		pm_tradition_orgasm
+		pm_support_orgasm
+	}
+}
+pmg_facility_entertainment = {
+	texture = ""
+	production_methods = {
+		pm_no_facility_entertainment
+		pm_facility_entertainment
+	}
+}
+pmg_facility_owner = {
+	texture = ""
+	production_methods = {
+		pm_private_owner
+		pm_hamodgovernment
+	}
+}
+
+
+#breed_academy
+
+pmg_base_breed_academy = {
+	texture = ""
+	production_methods = {
+		pm_masturbation_education
+		pm_sex_education
+		pm_breed_academy
+	}
+}
+
+pmg_breed_academy_academia = {
+	texture = ""
+	production_methods = {
+		pm_trap_academia
+	}
+}
+
+#pharmaceutical_factory
+
+pmg_aphrodisiac_production = {
+	texture = ""
+	production_methods = {
+		pm_labproduction_pharmaceutical
+		pm_industrialproduction_pharmaceutical
+		pm_automaticproduction_pharmaceutical
+	}
+}
+
+pmg_facility_owner = {
+	texture = ""
+	production_methods = {
+		pm_private_owner
+	}
+}
+
+#避孕用品
+pmg_condom_production = {
+	texture = ""
+	production_methods = {
+		pm_tradition_condom
+		pm_rubber_condom
+		pm_automatic_condom_production
+	}
+}
+
+pmg_contraceptiongoods_factory_owner = {
+	texture = ""
+	production_methods = {
+		pm_private_owner
+	}
+}

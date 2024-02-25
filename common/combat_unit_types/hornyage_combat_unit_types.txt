@@ -1,0 +1,108 @@
+﻿combat_unit_type_gen1_infantry = {
+	group = combat_unit_group_infantry
+
+	upkeep_modifier = {
+		goods_input_small_arms_add = 3
+        goods_input_ammunition_add = 2
+		goods_input_chastity_cage_add = 0.5
+	}
+	battle_modifier = {
+		unit_offense_add = 40
+        unit_defense_add = 50
+        unit_morale_loss_add = 8
+	}
+	unlocking_technologies = {
+		general_staff
+		chastity_worrier
+	}
+	can_build_conscript = {
+		NOT = {
+            has_law = law_type:law_peasant_levies
+        }
+	}
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/combat_unit_type_gen1_infantry.dds"
+	}
+	upgrades = {
+		combat_unit_type_irregular_infantry
+		combat_unit_type_line_infantry
+		combat_unit_type_skirmish_infantry
+        combat_unit_type_trench_infantry
+        combat_unit_type_squad_infantry
+        combat_unit_type_mechanized_infantry
+	}
+}
+
+combat_unit_type_gen2_infantry = {
+	group = combat_unit_group_infantry
+
+	upkeep_modifier = {
+		goods_input_small_arms_add = 3
+		goods_input_ammunition_add = 3
+		goods_input_chastity_cage_add = 1
+	}
+	battle_modifier = {
+		unit_offense_add = 45
+        unit_defense_add = 50
+        unit_morale_loss_add = 6
+		unit_devastation_mult = 0.05
+	}
+	unlocking_technologies = {
+		horny_power_strategies
+	}
+	can_build_conscript = {
+		NOT = {
+            has_law = law_type:law_peasant_levies
+        }
+	}
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/combat_unit_type_gen2_infantry.dds"
+	}
+	upgrades = {
+		combat_unit_type_irregular_infantry
+		combat_unit_type_line_infantry
+		combat_unit_type_skirmish_infantry
+        combat_unit_type_trench_infantry
+        combat_unit_type_squad_infantry
+        combat_unit_type_mechanized_infantry
+		combat_unit_type_gen1_infantry
+	}
+}
+
+combat_unit_type_gen3_infantry = {
+	group = combat_unit_group_infantry
+
+	upkeep_modifier = {
+		goods_input_small_arms_add = 3
+		goods_input_ammunition_add = 3
+		goods_input_chastity_cage_add = 2
+		goods_input_radios_add = 1
+	}
+	battle_modifier = {
+		unit_offense_add = 65
+        unit_defense_add = 70
+        unit_morale_loss_add = 4
+		unit_devastation_mult = 0.1
+	}
+	unlocking_technologies = {
+		NCO_with_chastitycage
+	}
+	can_build_conscript = {
+		NOT = {
+            has_law = law_type:law_peasant_levies
+        }
+	}
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/combat_unit_type_gen3_infantry.dds"
+	}
+	upgrades = {
+		combat_unit_type_irregular_infantry
+		combat_unit_type_line_infantry
+		combat_unit_type_skirmish_infantry
+        combat_unit_type_trench_infantry
+        combat_unit_type_squad_infantry
+        combat_unit_type_mechanized_infantry
+		combat_unit_type_gen1_infantry
+		combat_unit_type_gen2_infantry
+	}
+}

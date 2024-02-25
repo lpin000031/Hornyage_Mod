@@ -1,0 +1,26 @@
+﻿#test_decision = {
+#	is_shown = { #顯示決策的條件
+#		NOT = { #滿足條件則否
+#			has_variable = test_decision_taken
+#		}
+#	}
+#	possible = {
+#		is_player = yes #yes代表僅限玩家能看到
+#	}
+#	when_taken = { #按下決策後
+#		set_variable = {
+#			name = test_decision_taken
+#			value = yes
+#		}
+#
+#		trigger_event = {
+#			id = menstruation_police.1
+#			days = 0
+#			popup = yes
+#		}
+#	}
+#
+#	ai_chance = {
+#		base = 0
+#	}
+#}

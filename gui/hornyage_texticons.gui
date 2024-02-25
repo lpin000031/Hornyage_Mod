@@ -1,0 +1,163 @@
+﻿@sol_icon_fontsize = 45
+
+texticon = {
+	icon = hucow
+	iconsize = {
+	  offset = { 0 5 }
+	  texture = "gfx/interface/icons/pops_icons/hucow_15.dds"
+	  fontsize = 30
+	}
+}
+
+texticon = {
+	icon = milkmaid
+	iconsize = {
+	  offset = { 0 5 }
+	  texture = "gfx/interface/icons/pops_icons/milkmaid_15.dds"
+	  fontsize = 30
+	}
+}
+
+texticon = {
+	icon = sexslave
+	iconsize = {
+	  offset = { 0 5 }
+	  texture = "gfx/interface/icons/pops_icons/sexslave_15.dds"
+	  fontsize = 30
+	}
+}
+
+texticon = {
+	icon = slavemaster
+	iconsize = {
+	  offset = { 0 5 }
+	  texture = "gfx/interface/icons/pops_icons/slavemaster_15.dds"
+	  fontsize = 30
+	}
+}
+
+texticon = {
+	icon = trap
+	iconsize = {
+	  offset = { 0 5 }
+	  texture = "gfx/interface/icons/pops_icons/trap_15.dds"
+	  fontsize = 30
+	}
+}
+
+texticon = {
+	icon = whore
+	iconsize = {
+	  offset = { 0 5 }
+	  texture = "gfx/interface/icons/pops_icons/whore_15.dds"
+	  fontsize = 30
+	}
+}
+texticon = {
+	icon = condom
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/condom.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = aphrodisiac
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/aphrodisiac.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = deluxe_sex_toy
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/deluxe_sex_toy.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = masturbation_sex_toy
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/masturbation_sex_toy.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = gloryhole_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/gloryhole_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = brothel_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/brothel_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = semen
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/semen.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = breast_milk
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/breast_milk.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = milking_machine
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/milking_machine.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = chastity_cage
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/chastity_cage.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = vegina_juice
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/vegina_juice.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = sexualmedia
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/paper.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+  combat_unit_type_gen1_infantry: "貞潔戰士"
+  combat_unit_type_gen1_infantry_desc: "為了榮譽而戰鬥"
+  combat_unit_type_gen2_infantry: "性慾戰士"
+  combat_unit_type_gen2_infantry_desc: "為了慾望而戰鬥"
+  combat_unit_type_gen3_infantry: "繁殖戰士"
+  combat_unit_type_gen3_infantry_desc: "為了繁殖而戰鬥"
+  military_sexneeds: "性需求"
+  military_sexneeds_desc: "軍隊也是有基本人性的需求"
+  mobilization_option_miltary_brothels: "軍妓"
+  mobilization_option_miltary_brothels_desc: "供士兵和軍官發洩需求的對象"
+  mobilization_option_aphrodisiac_shell: "催情彈"
+  mobilization_option_aphrodisiac_shell_desc: "裝填了氣體化的春藥，能夠讓藥物通過空氣擴散"

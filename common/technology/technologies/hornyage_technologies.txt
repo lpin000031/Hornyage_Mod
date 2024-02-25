@@ -1,0 +1,212 @@
+﻿### ERA 1
+
+modern_slaves_manufacturies = {
+	#初始生產技術
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+}
+
+fucking_machine = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/fucking_machine.dds"
+	category = production
+	unlocking_technologies = {
+		modern_slaves_manufacturies
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+chemical_hormone_production = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = {
+		fucking_machine
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+pharmaceutical_mixingprocess = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/fractional_distillation.dds"
+	category = production
+	unlocking_technologies = {
+		chemical_hormone_production
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+orgasm_enegy = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = {
+		fucking_machine
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+biologically_active_enegy = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/electrical_capacitors.dds"
+	category = production
+	unlocking_technologies = {
+		orgasm_enegy
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+modern_slaves_warfare = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+}
+
+chastity_worrier = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/chastity_cage.dds"
+	category = military
+	unlocking_technologies = {
+		modern_slaves_warfare
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+horny_power_strategies = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/sea_lane_strategies.dds"
+	category = military
+	unlocking_technologies = {
+		chastity_worrier
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+NCO_with_chastitycage = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/wargaming.dds"
+	category = military
+	unlocking_technologies = {
+		horny_power_strategies
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+chemical_shell = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/chemical_warfare.dds"
+	category = military
+	unlocking_technologies = {
+		horny_power_strategies
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+modern_slaves_society = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/bureaucracy.dds"
+	category = society
+}
+
+masturbation_education = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/masturbation_education.dds"
+	category = society
+	unlocking_technologies = {
+		modern_slaves_society
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+escort = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/romanticism.dds"
+	category = society
+	unlocking_technologies = {
+		modern_slaves_society
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+pornmedia = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/mass_communication.dds"
+	category = society
+	unlocking_technologies = {
+		modern_slaves_society
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+entertainment_industry = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/camera.dds"
+	category = society
+	unlocking_technologies = {
+		pornmedia
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+madam_trainingcourse = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = {
+		entertainment_industry
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+sex_education = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/sex_education.dds"
+	category = society
+	unlocking_technologies = {
+		masturbation_education
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+breed_education = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/breed_education.dds"
+	category = society
+	unlocking_technologies = {
+		sex_education
+	}
+	ai_weight = {
+		value = 1
+	}
+}
